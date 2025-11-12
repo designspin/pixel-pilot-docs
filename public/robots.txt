@@ -1,4 +1,7 @@
 User-agent: *
-Allow: /
+Disallow: /
 
-Sitemap: https://designspin.github.io/pixel-pilot-docs/sitemap-index.xml
+# Uncomment the lines below once the app is live on the App Store:
+# User-agent: *
+# Allow: /
+# Sitemap: https://designspin.github.io/pixel-pilot-docs/sitemap-index.xml
