@@ -5,7 +5,7 @@ import starlight from '@astrojs/starlight';
 // https://astro.build/config
 export default defineConfig({
 	site: 'https://designspin.github.io',
-	base: '/pixel-pilot-docs',
+	base: process.env.NODE_ENV === 'production' ? '/pixel-pilot-docs' : '/',
 	integrations: [
 		starlight({
 			title: 'Pixel Pilot',
